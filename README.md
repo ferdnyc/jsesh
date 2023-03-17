@@ -1,7 +1,7 @@
 # JSesh sources
 Welcome to JSesh sources! 
 
-**JAVA 9+ (actually Java 11) version:**
+**JAVA 11 version:**
 
 
 JSesh is a Java hieroglyphic editor 
@@ -52,7 +52,7 @@ If you have the following behaviour :
 it might be worthwhile deleting `.classpath` and `.project` files in your JSesh folder, and trying again.
 
 
-## Files and Folders not part of the general maven architecture
+### Files and Folders not part of the general maven architecture
 
 * README.md : this file
 * TODO.md : ok, a TODO file
@@ -191,8 +191,18 @@ jre for 1.8 which was included in JSesh previously. This is not yet the master v
 - **Important** : check if launch4j wants a JDK or a 64bit executable.
 
 
+## Git and github
 
-## Note about github distribution (for personnal use mainly)
+### Git branches layout
+
+As of 2023/03/17, we have decided :
+
+- That the **master** branch should contain the **current** version of JSesh ; changes are made only when we want to make a new release ;
+- A *maintenance* branch will be used to work on small fixes (small bug fixes, possibly sign and text updates) to **master** ;
+- A **development** branch is be devoted to new functions.
+- very experimental stuff can be done in their own branch, which *might* be visible on github.
+  
+### Notes about github distribution (for personnal use mainly)
 
 To get the number of downloads for version 7.2.0 :
 
